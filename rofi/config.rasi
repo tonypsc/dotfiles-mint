@@ -1,1 +1,11 @@
-/home/tony/.config/rofi/config.rasi
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+//@theme "/usr/share/rofi/themes/fancy.rasi"
+
+configuration {
+  font: "Monospace 20";
+  modi: "drun,run,window,power:~/.local/bin/rofi-power";
+}
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+//@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+//@theme "/usr/share/rofi/themes/fancy.rasi"
+@theme "/usr/share/rofi/themes/Monokai.rasi"

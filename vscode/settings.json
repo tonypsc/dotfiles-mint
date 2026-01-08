@@ -1,1 +1,104 @@
-/home/tony/.config/Code/User/settings.json
+{
+  "workbench.colorTheme": "Solarized Light",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "redhat.telemetry.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "remote.SSH.remotePlatform": {
+    "dev-dsk-peganton-1c-9b688796.eu-west-1.amazon.com": "linux",
+    "dev-dsk-peganton-1c-a1daafb3.eu-west-1.amazon.com": "linux"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.enablePersistentSessions": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/build": true
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ],
+  "todohighlight.defaultStyle": {},
+  "todohighlight.keywords": [],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.detectIndentation": false,
+  "errorLens.excludeWorkspaces": [
+    "\\home\\peganton\\workplace\\AIS\\src\\AISCloudFrontAuth"
+  ],
+  "todohighlight.toggleURI": true,
+  "update.mode": "none",
+  "aws.suppressPrompts": {
+    "codeWhispererConnectionExpired": true
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "amazonQ.suppressPrompts": {
+    "codeWhispererConnectionExpired": true
+  },
+  "rapidapi.terminalLink.enabled": false,
+  "editor.fontSize": 15,
+  "powershell.promptToUpdatePowerShell": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "caps-lock-state.choose_display_method": "method_gutter_icon",
+  "vim.useCtrlKeys": false,
+  "vim.useSystemClipboard": true,
+  "vim.commandLineModeKeyBindings": [],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "b", "d"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "E"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditorInGroup"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditorInGroup"]
+    },
+    {
+      "before": ["<CR>"],
+      "after": ["O", "<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [],
+  "vim.leader": "<Space>",
+  "vim.easymotion": true,
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "database-client.autoSync": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "window.menuBarVisibility": "compact",
+  "workbench.sideBar.location": "right",
+  "cSpell.userWords": ["clockio"],
+  "claudeCode.preferredLocation": "sidebar"
+}
