@@ -18,10 +18,12 @@ mkdir -p ~/.config/alacritty
 # i3
 mkdir -p ~/.config/i3
 [ -f "$DOTFILES/i3/config" ] && cp -f "$DOTFILES/i3/config" ~/.config/i3/
+[ -f "$DOTFILES/i3/i3script.sh" ] && cp -f "$DOTFILES/i3/i3script.sh" ~/.config/i3/
 
 # i3blocks
 mkdir -p ~/.config/i3blocks
 [ -f "$DOTFILES/i3blocks/config" ] && cp -f "$DOTFILES/i3blocks/config" ~/.config/i3blocks/
+[ -f "$DOTFILES/i3blocks/kb-layout.sh" ] && cp -f "$DOTFILES/i3blocks/kb-layout.sh" ~/.config/i3blocks/
 
 # rofi
 mkdir -p ~/.config/rofi
