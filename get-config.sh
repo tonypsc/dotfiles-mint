@@ -20,10 +20,12 @@ mkdir -p "$DOTFILES/zsh"
 # i3
 mkdir -p "$DOTFILES/i3"
 [ -f ~/.config/i3/config ] && cp -f ~/.config/i3/config "$DOTFILES/i3/"
+[ -f ~/.config/i3/i3script.sh ] && cp -f ~/.config/i3/i3script.sh "$DOTFILES/i3/"
 
 # i3blocks
 mkdir -p "$DOTFILES/i3blocks"
 [ -f ~/.config/i3blocks/config ] && cp -f ~/.config/i3blocks/config "$DOTFILES/i3blocks/"
+[ -f ~/.config/i3blocks/kb-layout.sh ] && cp -f ~/.config/i3blocks/kb-layout.sh "$DOTFILES/i3blocks/"
 
 # rofi
 mkdir -p "$DOTFILES/rofi"
